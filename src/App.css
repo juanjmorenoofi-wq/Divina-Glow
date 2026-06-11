@@ -2,3 +2,26 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    color: antiquewhite;
+    padding: 12px 20px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.header a{
+    color: rgb(148, 25, 25);
+    text-decoration: none;
+    margin-left: 15px;
+}
+.header a:hover{
+    color: aliceblue;
+}
+.conten-logo{
+    
+}

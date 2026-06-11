@@ -3,6 +3,7 @@ export function Head() {
     <header className="header">
       <div className="conten-logo">
         <img className="img-logo" src="tienda.webp" alt="" />
+
         <h1 className="logo">Tienda online</h1>
       </div>
       <nav>
