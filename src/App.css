@@ -6,8 +6,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 0);
-    color: antiquewhite;
+    background: linear-gradient(90deg, rgb(120, 6, 86) 0%, rgb(223, 83, 214) 35%, rgb(237, 154, 212) 100%);
+    color: rgb(0, 0, 0);
     padding: 12px 20px;
 }
 .logo{
@@ -21,34 +21,35 @@
     margin-left: 15px;
 }
 .header a:hover{
-   color: rgb(255, 255, 255);
+   color: rgb(255, 251, 251);
 }
 .conten-logo{
     display: flex;
     align-items: center;
 }
 .img-logo{
-    width: 60px;
+    width: 100px;
 }
 .hero{
+
+    border-top: 7px solid rgb(0, 0, 0);
     margin-top: 0px;
     text-align: center;
     padding: 30px 20px;
-    background: #0c0566;
-background: linear-gradient(90deg, rgba(12, 5, 102, 1) 0%, rgba(17, 17, 212, 1) 35%, rgba(8, 161, 191, 1) 100%);
-color: rgb(255, 248, 239);
+background-color: rgb(218, 98, 188);
+color: rgb(34, 21, 3);
 }
 .btn{
     margin-top: 20px;
     padding: 20px 30px 20px 30px;
-    background-color:#BBC2FC ;
+    background-color:#fabbfc ;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 15%;
 }
 .btn:hover{
-    background-color: #051270;
-    color: aliceblue;
+    background-color: #851788;
+    color: rgb(0, 0, 0);
     padding: 23px 33px 23px 33px;
     transition: 250ms;
 }
@@ -142,8 +143,8 @@ padding: 20px; ;}
 
 /* Botón */
 .tarjeta button {
-    background: #007bff;
-    color: white;
+    background: #f2aadb;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -152,11 +153,11 @@ padding: 20px; ;}
 }
 
 .tarjeta button:hover {
-    background: #0056b3;
+    background: #fb77cf;
 }
 .video-seccion{
     border-top: 7px solid rgb(0, 0, 0);
-    background-color: #3f518d;
+    background-color: hsl(331, 75%, 68%);
     padding: 15px;
 }
 .video-seccion video{
@@ -176,12 +177,56 @@ padding: 15px;
 }
 .contenedor{
     border-top: 7px solid black;
-    background-color: #1b267d;
+    background-color: #e784e4;
 }
 .tarjeta{
-    background-color: #aacaec;
+    background-color: #ba1a8a;
 }
 .footer{
-    border-top: 7px solid black;
-    background-color: #161f28;
+    margin-top: 0px;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 7px solid rgb(0, 0, 0);
+    background-color: #59193e;
+    color: #f6e5ef;
+}
+.barra{
+    width: 700px;
+    background: rgb(38, 10, 28);
+    border-radius: 15px;
+    padding: 20px 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s;
+    margin-top: 10px;
+}
+.barra a{
+margin-right: 30px;
+color: #e8bad5;
+text-decoration: none;
+}
+.info{
+     width: 700px;
+    background: rgb(38, 10, 28);
+    border-radius: 15px;
+    padding: 20px 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s;
+    margin-top: 20px;
+}
+.contacto{
+    text-align: right;
+    margin-right: 50px;
+    display:block;
+}
+.contacto a{
+    text-decoration: none;
+    color: #e8bad5;
+    margin-bottom: 10px;
+}
+.direct{
+    text-align: left;
 }

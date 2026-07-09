@@ -5,6 +5,7 @@ export default function Home() {
       <div className="hero">
         <h2>Bienvenidos</h2>
         <p>Tienda online</p>
+        <p>de maquillaje</p>
         <button className="btn">Buscar</button>
       </div>
       <div className="video-seccion">

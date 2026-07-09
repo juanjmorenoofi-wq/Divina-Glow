@@ -3,39 +3,39 @@ export function Contents() {
     <div className="contenedor">
       <div className="tarjeta">
         <img
-          src="https://th.bing.com/th/id/R.d1961cd0ec035b7ccdc4aebb1254fd14?rik=t%2b1BGw6mHaoOWA&riu=http%3a%2f%2flepassetempsderose.l.e.pic.centerblog.net%2fo%2f56564059.png&ehk=stRL05Zasc7Mm21O7z4l%2bwdG8xYczXZlWK%2bjZeXXvPU%3d&risl=&pid=ImgRaw&r=0"
+          src="https://maquillajeimportadocolombia.com/wp-content/uploads/2025/11/s108779-main-zoom-324x324.webp"
           alt="imagen"
         />
-        <h3>Oso grande de peluche</h3>
-        <p>120.000</p>
+        <h3>Tinta de Benetint</h3>
+        <p>140.000</p>
         <button>ver mas</button>
       </div>
       <div className="tarjeta">
         <img
-          src="https://png.pngtree.com/png-vector/20231103/ourmid/pngtree-baby-shark-plush-doll-png-image_10439672.png"
+          src="https://bibiboom.co/cdn/shop/files/BRILLOAURATONO3.png?v=1771805609&width=3840"
           alt="imagen"
         />
-        <h3>Tiburon de peluche</h3>
-        <p>50.000</p>
+        <h3>Gloss de Aura</h3>
+        <p>18.000</p>
         <button>ver mas</button>
       </div>{" "}
       <div className="tarjeta">
         <img
-          src="https://static.vecteezy.com/system/resources/previews/057/237/068/non_2x/adorable-golden-brown-teddy-dog-plush-toy-perfect-for-kids-free-png.png"
+          src="https://locatelcolombia.vtexassets.com/arquivos/ids/187405/7702044159661.png?v=636035990395270000"
           alt="imagen"
         />
-        <h3>Perro de peluche</h3>
+        <h3>Pestañina de MaxFactor</h3>
         <p>30.000</p>
         <button>ver mas</button>
       </div>{" "}
       <div className="tarjeta">
         <img
-          src="https://i.pinimg.com/originals/26/c2/c9/26c2c9704a18ba9a4b9649f4aa1889a9.png"
+          src="https://yalumakeup.co/cdn/shop/files/polvo-suelto-raquel-1024x1024.webp?v=1751562523"
           alt="imagen"
         />
         <h2></h2>
-        <h3>Gato de peluche</h3>
-        <p>30.000</p>
+        <h3>Polvos de Raquel</h3>
+        <p>25.000</p>
         <button>ver mas</button>
       </div>
     </div>
