@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgb(120, 6, 86) 0%,
+    rgb(223, 83, 214) 35%,
+    rgb(237, 154, 212) 100%
+  );
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.header a {
+  color: rgb(187, 52, 52);
+  text-decoration: none;
+  margin-left: 15px;
+}
+.header a:hover {
+  color: rgb(255, 251, 251);
+}
+.conten-logo {
+  display: flex;
+  align-items: center;
+}
+.img-logo {
+  width: 100px;
+}
+.hero {
+  border-top: 7px solid rgb(0, 0, 0);
+  margin-top: 0px;
+  text-align: center;
+  padding: 30px 20px;
+  background-color: rgb(218, 98, 188);
+  color: rgb(34, 21, 3);
+}
+.btn {
+  margin-top: 20px;
+  padding: 20px 30px 20px 30px;
+  background-color: #fabbfc;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15%;
+}
+.btn:hover {
+  background-color: #851788;
+  color: rgb(0, 0, 0);
+  padding: 23px 33px 23px 33px;
+  transition: 250ms;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tarjeta {
+  width: 300px;
+  background: rgb(161, 10, 10);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+/* Imagen */
+.tarjeta img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Título */
+.tarjeta h2 {
+  color: #333;
+  margin: 15px 0 10px;
+}
+
+/* Texto */
+.tarjeta p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Botón */
+.tarjeta button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.tarjeta button:hover {
+  background: #0056b3;
+} /* Tarjeta básica */
+.tarjeta {
+  width: 300px;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+/* Imagen */
+.tarjeta img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Título */
+.tarjeta h2 {
+  color: #333;
+  margin: 15px 0 10px;
+}
+
+/* Texto */
+.tarjeta p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Botón */
+.tarjeta button {
+  background: #f2aadb;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.tarjeta button:hover {
+  background: #fb77cf;
+}
+.video-seccion {
+  border-top: 7px solid rgb(0, 0, 0);
+  background-color: hsl(331, 75%, 68%);
+  padding: 15px;
+}
+.video-seccion video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 2px auto;
+  border-radius: 25px;
+  padding: 15px;
+}
+.video-seccion h2 {
+  text-align: center;
+  color: #e8e7f4;
+  padding: 2px;
+  margin-top: 2px;
+}
+.contenedor {
+  border-top: 7px solid black;
+  background-color: #e784e4;
+}
+.tarjeta {
+  background-color: #ba1a8a;
+}
+.footer {
+  margin-top: 0px;
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 7px solid rgb(0, 0, 0);
+  background-color: #59193e;
+  color: #f6e5ef;
+}
+.barra {
+  width: 700px;
+  background: rgb(38, 10, 28);
+  border-radius: 15px;
+  padding: 20px 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s;
+  margin-top: 10px;
+}
+.barra a {
+  margin-right: 30px;
+  color: #e8bad5;
+  text-decoration: none;
+}
+.info {
+  width: 90%;
+  background: rgb(38, 10, 28);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  display: flex;
+}
+.ubicacion {
+  text-align: left;
+  width: 50%;
+}
+
+.contacto {
+  text-align: right;
+  display: block;
+  width: 50%;
+}
+.contacto a {
+  text-decoration: none;
+  color: #e8bad5;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+/* CLASES GENERAL */
+@general;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
