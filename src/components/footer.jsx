@@ -10,6 +10,9 @@ export function Footer() {
           <a href="">Contacto</a>
         </div>
         <div className="info">
+          <div className="ubicacion">
+            <h1>hola</h1>
+          </div>
           <div className="contacto">
             <a href="">WhatsApp</a>
             <br />
@@ -21,9 +24,6 @@ export function Footer() {
             <br />
             <br />
             <a href="">Faceboock</a>
-          </div>
-          <div className="ubicacion">
-            <h1>hola</h1>
           </div>
         </div>
       </div>
