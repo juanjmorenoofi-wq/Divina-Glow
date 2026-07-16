@@ -1,3 +1,4 @@
+import * as iconos from "lucide-react";
 export function Head() {
   return (
     <header className="header">
@@ -7,10 +8,22 @@ export function Head() {
         <h1 className="logo">Divina Glow</h1>
       </div>
       <nav>
-        <a href="">Inicio</a>
-        <a href="">Productos</a>
-        <a href="">Servicio</a>
-        <a href="">Contacto</a>
+        <a href="">
+          <iconos.House />
+          Inicio
+        </a>
+        <a href="">
+          <iconos.Package />
+          Productos
+        </a>
+        <a href="">
+          <iconos.UserRoundCog />
+          Servicio
+        </a>
+        <a href="">
+          <iconos.Phone />
+          Contacto
+        </a>
       </nav>
     </header>
   );
