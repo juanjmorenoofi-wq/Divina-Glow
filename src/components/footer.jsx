@@ -14,7 +14,10 @@ export function Footer() {
         <div className="flex">
           <div className="info">
             <div className="ubicacion">
-              <h1>hola</h1>
+              <p2>
+                Divina glow es una distribuidora de maquillague ubicada en
+                Acevedo Huila en la carrera 5 calle 26B 17
+              </p2>
             </div>
             <div className="contacto">
               <a href="">WhatsApp</a>
