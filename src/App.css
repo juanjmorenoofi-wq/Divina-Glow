@@ -237,6 +237,10 @@
   margin-bottom: 10px;
   text-align: right;
 }
+.contacto img {
+  width: 5%;
+  padding: 0px 4px 0px 0px;
+}
 
 /* CLASES GENERAL */
 @general;

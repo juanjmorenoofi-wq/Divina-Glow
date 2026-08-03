@@ -20,7 +20,13 @@ export function Footer() {
               </p2>
             </div>
             <div className="contacto">
-              <a href="">WhatsApp</a>
+              <a href="">
+                <img
+                  src="https://tecnowasap.com/wp-content/uploads/2021/07/whatsapp-rosa.png"
+                  alt="imagen"
+                />
+                WhatsApp
+              </a>
               <br />
               <br />
               <a href="">TikTok</a>
