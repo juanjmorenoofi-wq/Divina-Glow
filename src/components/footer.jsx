@@ -14,12 +14,13 @@ export function Footer() {
         <div className="flex">
           <div className="info">
             <div className="ubicacion">
+              <img className="img-logo" src="divina.webp" alt="" />
               <p2>
-                Divina glow es una distribuidora de maquillague ubicada en
-                Acevedo Huila en la carrera 5 calle 26B 17
+                Realzamos tu belleza con productos de calidad para cada ocacion
               </p2>
             </div>
             <div className="contacto">
+              <h3>Nuestras redes sociales</h3>
               <a href="">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/960px-WhatsApp.svg.png"
