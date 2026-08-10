@@ -141,7 +141,7 @@
 
 /* Texto */
 .tarjeta p {
-  color: #666;
+  color: #f0eaae;
   font-size: 14px;
 }
 
@@ -194,6 +194,10 @@
   background-color: #59193e;
   color: #f6e5ef;
 }
+.footer h3 {
+  color: #ff97e0;
+  padding: 0px 0px 30px 0px;
+}
 .barra {
   width: 700px;
   background: rgb(38, 10, 28);
@@ -221,15 +225,36 @@
   margin-top: 20px;
   display: flex;
 }
+.info a {
+  text-decoration: none;
+  color: #e8bad5;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 120%;
+}
 .ubicacion {
   text-align: left;
   width: 50%;
 }
+.ubicacion p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 130%;
+}
 .ubicacion img {
   width: 90%;
 }
-.contacto h3 {
-  padding: 0px 0px 30px 0px;
+.enlace {
+  text-align: right;
+  display: block;
+  width: 50%;
+}
+.enlace a {
+  text-decoration: none;
+  color: #e8bad5;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 120%;
+  display: block;
 }
 .contacto {
   text-align: right;
@@ -241,10 +266,19 @@
   color: #e8bad5;
   margin-bottom: 10px;
   text-align: right;
+  font-size: 120%;
 }
-.contacto img {
-  width: 4%;
+.sigue {
+  text-align: right;
+  display: block;
+  width: 50%;
+}
+.sigue img {
+  width: 5%;
   padding: 0px 4px 0px 0px;
+}
+.icons {
+  color: #ed53ad;
 }
 
 /* CLASES GENERAL */

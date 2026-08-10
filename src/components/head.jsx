@@ -17,8 +17,17 @@ export function Head() {
           Productos
         </a>
         <a href="">
+          <iconos.Tag />
+          Ofertas
+        </a>
+
+        <a href="">
           <iconos.UserRoundCog />
-          Servicio
+          Nosotros
+        </a>
+        <a href="">
+          <iconos.CircleQuestionMark />
+          Preguntas
         </a>
         <a href="">
           <iconos.Phone />
