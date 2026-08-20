@@ -7,8 +7,8 @@ export function Head() {
 
         <h1 className="logo">Divina Glow</h1>
       </div>
-      <nav>
-        <a href="">
+      <nav className="flex">
+        <a href="" className="flex">
           <iconos.House />
           Inicio
         </a>
