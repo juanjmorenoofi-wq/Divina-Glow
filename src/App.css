@@ -280,7 +280,17 @@
 .icons {
   color: #ed53ad;
 }
-
+.pago {
+  width: 90%;
+  background: rgb(38, 10, 28);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  display: flex;
+}
 /* CLASES GENERAL */
 @general;
 .flex {
