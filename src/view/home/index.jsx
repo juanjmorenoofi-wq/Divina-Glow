@@ -9,7 +9,7 @@ export default function Home() {
         <button className="btn">Buscar</button>
       </div>
       <div className="video-seccion">
-        <h2>video de muestra!</h2>
+        <h1>video de muestra!</h1>
         <video controls>
           <source src="public/video.mp4" type="video/mp4" video></source>
         </video>

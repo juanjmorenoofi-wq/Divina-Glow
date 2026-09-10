@@ -173,11 +173,13 @@
   border-radius: 25px;
   padding: 15px;
 }
-.video-seccion h2 {
+.video-seccion h1 {
   text-align: center;
   color: #e8e7f4;
   padding: 2px;
   margin-top: 2px;
+  font-size: 200%;
+  font-family: "Times New Roman", Times, serif;
 }
 .contenedor {
   border-top: 7px solid black;
