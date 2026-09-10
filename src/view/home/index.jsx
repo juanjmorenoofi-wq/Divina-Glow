@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div>
       <div className="hero">
-        <h2>Bienvenidos</h2>
+        <h1>Bienvenidos</h1>
         <p>Tienda online</p>
         <p>de maquillaje</p>
         <button className="btn">Buscar</button>

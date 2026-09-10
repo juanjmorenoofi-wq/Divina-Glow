@@ -8,28 +8,28 @@ export function Head() {
         <h1 className="logo">Divina Glow</h1>
       </div>
       <nav className="flex">
-        <a href="" className="flex">
+        <a href="" className="flex icons">
           <iconos.House />
           Inicio
         </a>
-        <a href="">
+        <a href="" className="flex icons">
           <iconos.Package />
           Productos
         </a>
-        <a href="">
+        <a href="" className="flex icons">
           <iconos.Tag />
           Ofertas
         </a>
 
-        <a href="">
+        <a href="" className="flex icons">
           <iconos.UserRoundCog />
           Nosotros
         </a>
-        <a href="">
+        <a href="" className="flex icons">
           <iconos.CircleQuestionMark />
           Preguntas
         </a>
-        <a href="">
+        <a href="" className="flex icons">
           <iconos.Phone />
           Contacto
         </a>
