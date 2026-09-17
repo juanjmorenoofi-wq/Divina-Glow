@@ -7,32 +7,36 @@ export function Head() {
 
         <h1 className="logo">Divina Glow</h1>
       </div>
-      <nav className="flex">
-        <a href="" className="flex icons">
-          <iconos.House />
-          Inicio
-        </a>
-        <a href="" className="flex icons">
-          <iconos.Package />
-          Productos
-        </a>
-        <a href="" className="flex icons">
-          <iconos.Tag />
-          Ofertas
-        </a>
 
-        <a href="" className="flex icons">
-          <iconos.UserRoundCog />
-          Nosotros
-        </a>
-        <a href="" className="flex icons">
-          <iconos.CircleQuestionMark />
-          Preguntas
-        </a>
-        <a href="" className="flex icons">
-          <iconos.Phone />
-          Contacto
-        </a>
+      <nav className="flex">
+        {" "}
+        <div className="cabeza flex">
+          <a href="" className="flex icons">
+            <iconos.House />
+            Inicio
+          </a>
+          <a href="" className="flex icons">
+            <iconos.Package />
+            Productos
+          </a>
+          <a href="" className="flex icons">
+            <iconos.Tag />
+            Ofertas
+          </a>
+
+          <a href="" className="flex icons">
+            <iconos.UserRoundCog />
+            Nosotros
+          </a>
+          <a href="" className="flex icons">
+            <iconos.CircleQuestionMark />
+            Preguntas
+          </a>
+          <a href="" className="flex icons">
+            <iconos.Phone />
+            Contacto
+          </a>
+        </div>
       </nav>
     </header>
   );

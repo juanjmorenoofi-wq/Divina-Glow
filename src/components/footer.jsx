@@ -3,7 +3,9 @@ export function Footer() {
   return (
     <>
       <div className="footer">
-        <h2>Divina Glow</h2>
+        <div className="tamaño">
+          <h2>Divina Glow</h2>
+        </div>
         <div className="flex">
           <div className="barra">
             <a href="">Inicio</a>
