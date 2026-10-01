@@ -78,14 +78,21 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
 }
-.img-buscar {
-  width: 50%;
-}
+
 .shop {
   width: 50%;
 }
 .img-shop {
   width: 50%;
+}
+.img-shop img {
+  width: 50%;
+}
+.img-buscar {
+  width: 50%;
+}
+.img-buscar img {
+  width: 80%;
 }
 .btn-buscar {
 }
@@ -108,17 +115,6 @@
   justify-content: center;
   gap: 20px;
   padding: 20px;
-}
-
-.tarjeta {
-  width: 300px;
-  background: rgb(161, 10, 10);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  font-family: Arial, sans-serif;
-  transition: transform 0.3s;
 }
 
 /* Efecto al pasar el mouse */
@@ -351,6 +347,38 @@
   font-family: Arial, sans-serif;
   margin-top: 20px;
   display: flex;
+}
+.meto {
+  width: 55%;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 25px;
+}
+.nequi {
+  width: 45%;
+}
+.nequi img {
+  width: 85%;
+  margin-top: 20px;
+}
+.breve {
+  width: 45%;
+}
+.breve img {
+  width: 85%;
+  margin-top: 20px;
+}
+.debito {
+  width: 45%;
+}
+.debito img {
+  width: 80%;
+}
+.daviplata {
+  width: 45%;
+}
+.daviplata img {
+  width: 95%;
 }
 /* CLASES GENERAL */
 @general;

@@ -117,7 +117,33 @@ export function Footer() {
         </div>
         <div className="flex">
           <div className="pago">
-            <h3>metodos de pago</h3>
+            <div className="meto">
+              <h3>metodos de pago</h3>
+            </div>
+            <div className="nequi">
+              <img
+                src="https://cdn.brandfetch.io/domain/nequi.com.co/fallback/lettermark/theme/light/h/400/w/400/logo?c=1bfwsmEH20zzEfSNTed"
+                alt="imagen"
+              />
+            </div>
+            <div className="breve">
+              <img
+                src="https://www.bancoomeva.com.co/info/bancoomeva/media/galeria182488.png"
+                alt="imagen"
+              />
+            </div>
+            <div className="debito">
+              <img
+                src="https://1000logos.net/wp-content/uploads/2017/06/VISA-Logo-2006.png"
+                alt="imagen"
+              />
+            </div>
+            <div className="daviplata">
+              <img
+                src="https://academiabogotana.edu.co/wp-content/uploads/2024/01/LOGO-DAVIPLATA-1-V1.png"
+                alt="imagen"
+              />
+            </div>
           </div>
         </div>
       </div>

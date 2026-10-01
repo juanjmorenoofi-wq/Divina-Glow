@@ -10,7 +10,7 @@ export default function Home() {
         <div className="buscar">
           <div className="online flex">
             <div className="img-buscar  flex w-100">
-              <p>hola</p>
+              <img src="maqui.png" alt="" />
             </div>
             <div className="shop   w-100">
               <p>Tienda online</p>
@@ -20,7 +20,7 @@ export default function Home() {
               </div>
             </div>
             <div className="img-shop  flex w-100">
-              <p>hola</p>
+              <img src="dibujo.png" alt="" />
             </div>
           </div>
         </div>
