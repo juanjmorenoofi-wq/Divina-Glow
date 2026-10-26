@@ -1,152 +1,132 @@
-import * as iconos from "lucide-react";
+import {
+  House,
+  Package,
+  Tag,
+  UserRound,
+  Phone,
+  CircleHelp,
+  Mail,
+  Clock,
+  Heart,
+} from "lucide-react";
+
 export function Footer() {
   return (
-    <>
-      <div className="footer">
-        <div className="tamaño">
-          <h2>Divina Glow</h2>
-        </div>
-        <div className="flex">
-          <div className="barra">
-            <a href="">Inicio</a>
-            <a href="">Producto</a>
-            <a href="">Servicio</a>
-            <a href="">Contacto</a>
+    <footer className="site-footer" id="contacto">
+      <div className="footer-main">
+        <div className="footer-brand-col">
+          <a className="brand footer-brand" href="#inicio">
+            <img src="/divina.webp" className="brand-logo" alt="Divina Glow" />
+            <span className="brand-name">
+              Divina <b>Glow</b>
+              <small>BEAUTY STORE</small>
+            </span>
+          </a>
+
+          <p>
+            Realzamos tu belleza con productos de calidad para cada ocasión.
+            Brilla a tu manera.
+          </p>
+
+          <div className="footer-socials">
+            <a
+              href="https://www.instagram.com/divinaglow"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+              <img src="/instagram-2016-5.svg" alt="Instagram" />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+            >
+              <img src="/facebook-3-2.svg" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="YouTube"
+            >
+              <img src="/youtube-icon-5.svg" alt="YouTube" />
+            </a>
           </div>
         </div>
-        <div className="flex">
-          <div className="info">
-            <div className="ubicacion">
-              <img className="img-logo" src="divina.webp" alt="" />
+
+        <div className="footer-column">
+          <h3>Explora</h3>
+          <a href="#inicio">
+            <House /> Inicio
+          </a>
+          <a href="#productos">
+            <Package /> Productos
+          </a>
+          <a href="#ofertas">
+            <Tag /> Ofertas
+          </a>
+          <a href="#nosotros">
+            <UserRound /> Nosotros
+          </a>
+        </div>
+
+        <div className="footer-column">
+          <h3>¿Necesitas ayuda?</h3>
+          <a href="#preguntas">
+            <CircleHelp /> Preguntas
+          </a>
+          <a href="https://wa.me/573160746119">
+            <Phone /> WhatsApp
+          </a>
+          <a href="mailto:divinaglow@gmail.com">
+            <Mail /> Correo electrónico
+          </a>
+        </div>
+
+        <div className="footer-column footer-contact">
+          <h3>Atención al cliente</h3>
+          <p>
+            <Phone /> 316 074 6119
+          </p>
+          <p>
+            <Mail /> divinaglow@gmail.com
+          </p>
+          <p>
+            <Clock />
+            <span>
+              Lun–vie: 8:00 a. m. – 6:00 p. m.
               <br />
-              <br />
-              <p>
-                Realzamos tu belleza con productos de calidad para cada ocacion
-              </p>
-            </div>
-            <div className="enlace">
-              <h3 className="flex-right">Enlaces rapidos</h3>
-              <h2 className="flex-right">
-                <iconos.House className="icons" />
-                Inicio
-              </h2>
-              <h2 className="flex-right">
-                <iconos.Package className="icons" />
-                Productos
-              </h2>
-              <h2 className="flex-right">
-                <iconos.Tag className="icons" />
-                Ofertas
-              </h2>
-
-              <h2 className="flex-right">
-                <iconos.UserRoundCog className="icons" />
-                Nosotros
-              </h2>
-              <h2 className="flex-right">
-                <iconos.CircleQuestionMark className="icons" />
-                Preguntas
-              </h2>
-              <h2 className="flex-right">
-                <iconos.Phone className="icons" />
-                Contacto
-              </h2>
-            </div>
-            <div className="contacto">
-              <h3 className="flex-right">Atencio al cliente</h3>
-              <h3 className="flex-right">
-                <iconos.Phone /> WhatsApp
-              </h3>
-              <h2>
-                <a href="">3160746119</a>
-              </h2>
-              <h3 className="flex-right">
-                <iconos.Mail />
-                Correo electronico
-              </h3>
-              <h2>
-                <a href="">divinaglow@gmail.com</a>
-              </h2>
-
-              <h3 className="flex-right">
-                <iconos.Clock />
-                Horario de atención
-              </h3>
-              <h2>
-                <a href="">
-                  lun-vie: 8:00Am - 6:00Pm <br />
-                  sab: 9:00Am - 2:00Pm
-                </a>
-              </h2>
-            </div>
-            <div className="sigue">
-              <h3 className="flex-right">Síguenos en</h3>
-              <a href="" className="flex-right mb-30">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Instagram_Glyph_Gradient_RGB_logo.svg/960px-Instagram_Glyph_Gradient_RGB_logo.svg.png"
-                  alt="imagen"
-                />
-                @divinaglow
-              </a>
-              <a href="" className="flex-right mb-30">
-                <img
-                  src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338432_960_720.png"
-                  alt="imagen"
-                />
-                @divinaglow
-              </a>
-
-              <a href="" className="flex-right mb-30">
-                <img
-                  src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-facebook-icon-png-image_9015416.png"
-                  alt="imagen"
-                />
-                /divinaglow
-              </a>
-
-              <a href="" className="flex-right mb-30">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
-                  alt="imagen"
-                  className="ima"
-                />
-                /divinaglow
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="flex">
-          <div className="pago">
-            <div className="meto">
-              <h3>metodos de pago</h3>
-            </div>
-            <div className="nequi">
-              <img
-                src="https://cdn.brandfetch.io/domain/nequi.com.co/fallback/lettermark/theme/light/h/400/w/400/logo?c=1bfwsmEH20zzEfSNTed"
-                alt="imagen"
-              />
-            </div>
-            <div className="breve">
-              <img
-                src="https://www.bancoomeva.com.co/info/bancoomeva/media/galeria182488.png"
-                alt="imagen"
-              />
-            </div>
-            <div className="debito">
-              <img
-                src="https://1000logos.net/wp-content/uploads/2017/06/VISA-Logo-2006.png"
-                alt="imagen"
-              />
-            </div>
-            <div className="daviplata">
-              <img
-                src="https://academiabogotana.edu.co/wp-content/uploads/2024/01/LOGO-DAVIPLATA-1-V1.png"
-                alt="imagen"
-              />
-            </div>
-          </div>
+              Sáb: 9:00 a. m. – 2:00 p. m.
+            </span>
+          </p>
         </div>
       </div>
-    </>
+
+      <div className="payment-row">
+        <span>Métodos de pago</span>
+        <div className="payment-logos">
+          <img src="/nequi-2.svg" alt="Nequi" />
+          <img src="/logo-bre-b.svg" alt="Bancoomeva" />
+          <img
+            src="https://1000logos.net/wp-content/uploads/2017/06/VISA-Logo-2006.png"
+            alt="Visa"
+          />
+          <img src="/daviplata.svg" alt="Daviplata" />
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <span>
+          © {new Date().getFullYear()} Divina Glow. Todos los derechos
+          reservados.
+        </span>
+        <span>
+          Hecho con <Heart size={14} fill="currentColor" />
+          para tu belleza.
+        </span>
+      </div>
+    </footer>
   );
 }
